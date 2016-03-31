@@ -1,9 +1,6 @@
-language: go
-go:
-  - tip
-
-script: 
-  - "echo Love is in the air"
+language: node_js
+node_js:
+  - "5"
 
 deploy:
   provider: surge
