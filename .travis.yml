@@ -5,9 +5,9 @@ node_js:
 script: echo OK
 
 deploy:
-  - provider: surge
-  - edge:
-    - source: mathiasrw/dpl
-    - branch: master
-  - on:
-    - branches: master 
+  provider: surge
+  edge:
+    source: mathiasrw/dpl
+    branch: master
+  on:
+    branches: master 
