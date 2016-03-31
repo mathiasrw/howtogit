@@ -1,8 +1,9 @@
-language: node_js
-node_js:
-  - "4"
-  
-script: echo OK
+language: go
+go:
+  - tip
+
+script: 
+  - "echo Love is in the air"
 
 deploy:
   provider: surge
