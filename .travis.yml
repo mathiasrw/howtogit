@@ -8,4 +8,4 @@ deploy:
     source: mathiasrw/dpl
     branch: master
   on:
-    branches: master 
+    all_branches: true
