@@ -2,10 +2,10 @@ language: node_js
 node_js:
   - "5"
 
-deploy:
-  provider: surge
-  edge:
-    source: mathiasrw/dpl
-    branch: master
-  on:
-    branches: master 
+#deploy:
+#  provider: surge
+#  edge:
+#    source: mathiasrw/dpl
+#    branch: master
+#  on:
+#    branches: master 
