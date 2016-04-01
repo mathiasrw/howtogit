@@ -6,7 +6,7 @@ deploy:
   provider: surge
   edge:
     source: mathiasrw/dpl
-    branch: Surge.sh
+    branch: master
   on:
     all_branches: true
   domain: travis-loves-surge.surge.sh
