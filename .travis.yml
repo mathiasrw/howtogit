@@ -11,3 +11,4 @@ deploy:
     all_branches: true
   domain: travis-loves-surge.surge.sh
   project: ./
+  
