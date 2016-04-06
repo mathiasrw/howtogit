@@ -8,7 +8,7 @@ deploy:
     source: mathiasrw/dpl
     branch: master
   on:
-    all_branches: true
+    branch: master
   domain: travis-loves-surge.surge.sh
   project: ./
   
