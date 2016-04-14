@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Love is in the air\""
+    "test": "cd trap && echo \"Love is in the air\""
   },
   "author": "mathiasrw",
   "license": "MIT"
