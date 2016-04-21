@@ -2,11 +2,9 @@ language: node_js
 node_js:
   - "4"
 
-deploy:
+XXX_deploy:
   provider: surge
-  edge:
-    source: mathiasrw/dpl
-    branch: master
+  edge: true
   on:
     branch: master
   domain: travis-loves-surge.surge.sh
