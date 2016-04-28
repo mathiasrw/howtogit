@@ -1,10 +1,12 @@
 language: node_js
 node_js:
   - "4"
+  
+script: echo "$(TRAVIS_BUILD_DIR)" && echo "$(SURGE_LOGIN)"  
 
 deploy:
   provider: surge
-  edge: true
+#  edge: true
   on:
     branch: master
   domain: travis-loves-surge.surge.sh
