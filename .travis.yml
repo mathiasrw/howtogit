@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "4"
   
-script: echo "$($TRAVIS_BUILD_DIR)" && echo "$($SURGE_LOGIN)"  
+script: echo $SURGE_LOGIN  
 
 deploy:
   provider: surge
