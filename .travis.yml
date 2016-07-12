@@ -7,7 +7,7 @@ deploy:
 #  edge: true
   on:
     branch: master
-  domain: travis-loves-surge.surge.sh
+  domain: oleams.surge.sh
   project: ./
   
   
